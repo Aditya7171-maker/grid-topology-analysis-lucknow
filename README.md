@@ -60,6 +60,16 @@ Shapes:
 - Geographic layout using coordinates
 
 ---
+## 📊 Results & Visualizations
+
+### Grid Topology Map
+![Grid Map](map.png)
+
+### Degree Distribution
+![Degree Distribution](degree_distribution.png)
+
+### Cycle Length Distribution
+![Cycle Histogram](cycle_histogram.png)
 ##  Usage
 
 python src/main.py

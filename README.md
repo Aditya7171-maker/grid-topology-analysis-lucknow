@@ -8,20 +8,6 @@ It converts raw geospatial power infrastructure data into a network graph, enabl
 Core idea:
 Treat the power grid like a network → analyze it like a system → unlock intelligence.
 
----
-
-##  Problem
-Power grids are complex, poorly visualized, and difficult to analyze at scale.
-
-Most student projects:
-- Use toy datasets
-- Ignore real infrastructure
-- Stay theoretical
-
-This project:
-- Uses real geospatial grid data
-- Builds a scalable graph model
-- Extracts actual structural insights
 
 ---
 
@@ -74,36 +60,6 @@ Shapes:
 - Geographic layout using coordinates
 
 ---
-
-##  Project Structure
-
-lucknow-grid-analysis/
-
-├── data/
-│   ├── nodes.csv
-│   └── edges.csv
-│
-├── src/
-│   ├── main.py
-│   ├── data_loader.py
-│   ├── graph_builder.py
-│   ├── analysis.py
-│   └── visualize.py
-│
-├── requirements.txt
-└── README.md
-
----
-
-##  Installation
-
-git clone https://github.com/your-username/lucknow-grid-analysis.git  
-cd lucknow-grid-analysis  
-
-pip install -r requirements.txt  
-
----
-
 ##  Usage
 
 python src/main.py
